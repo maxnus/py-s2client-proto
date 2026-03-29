@@ -6,7 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 PROTO_ROOT = ROOT / "external" / "s2client-proto"
 PACKAGE = "s2clientprotocol"
 OUTPUT_DIR = ROOT / "src" / PACKAGE
