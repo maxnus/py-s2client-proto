@@ -2,7 +2,7 @@
 name = "pys2clientprotocol"
 version = "1.0.0"
 description = "Prebuilt Python protobuf files for the StarCraft II client protocol"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = ["protobuf>=6,<8"]
 license = "MIT"
 readme = "README.md"

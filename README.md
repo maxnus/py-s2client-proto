@@ -12,7 +12,7 @@ to generate them yourself.
 pip install pys2clientprotocol
 ```
 
-Requires `protobuf>=6,<8` and Python 3.10+.
+Requires `protobuf>=6,<8` and Python 3.9+.
 
 ## Usage
 
