@@ -1,6 +1,6 @@
 [project]
 name = "pys2clientprotocol"
-version = "1.0.0"
+version = "1.0.1"
 description = "Prebuilt Python protobuf files for the StarCraft II client protocol"
 requires-python = ">=3.9"
 dependencies = ["protobuf>=6,<8"]
