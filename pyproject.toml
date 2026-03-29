@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 
 [project.optional-dependencies]
-build = ["grpcio-tools"]
+build = ["grpcio-tools", "mypy-protobuf"]
 test = ["pytest"]
 
 [project.urls]
