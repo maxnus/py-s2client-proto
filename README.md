@@ -19,3 +19,19 @@ Requires `protobuf>=6,<8` and Python 3.9+.
 ```python
 from s2clientprotocol import sc2api_pb2
 ```
+
+## Generating new files
+
+To generate new `_pb2.py` and `.pyi` files
+(for example to upgrade to a new `protobuf` version) please install `pys2clientprotocol`
+in editable mode and with the `build` extra option, i.e.
+
+```bash
+pip install -e .[build]
+```
+
+After this, run
+
+```bash
+python scripts/generate_pb2.py
+```
